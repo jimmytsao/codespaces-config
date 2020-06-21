@@ -1,0 +1,14 @@
+{
+  "extensions": [
+    "octref.vetur"
+  ],
+  "forwardPorts": [
+    3000,
+    8080,
+    37017
+  ],
+  "runArgs": [
+    "--v", "/var/run/docker.sock:/var/run/docker.sock"
+  ],
+  "postAttachCommand": "node -v"
+}
